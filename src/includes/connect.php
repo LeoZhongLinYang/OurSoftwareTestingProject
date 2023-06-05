@@ -1,8 +1,8 @@
 <?php
 session_start();
-$servername = "localhost";
-$server_user = "root";
-$server_pass = "";
+$servername = "eric";
+$server_user = "eric";
+$server_pass = "ericdamnit030635";
 $dbname = "food";
 $name = $_SESSION['name'];
 $role = $_SESSION['role'];
