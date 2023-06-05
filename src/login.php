@@ -1,18 +1,18 @@
 <?php  
-class login {
-  public function login_function() {
+class Login {
+    public function loginFunction() {
 
-    session_start(); 
+        session_start();
 
-    if(isset($_SESSION['admin_sid']) || isset($_SESSION['customer_sid']))
-    {
+        if (isset($_SESSION['admin-sid']) || isset($_SESSION['customer_sid']))
+        {
 
-      header("location:index.php");
-      return 1;
+            header("location:index.php");
+            return 1;
 
-    }
-
-    else {
+        }    
+        
+        else {
 
 ?>
 
@@ -119,12 +119,12 @@ class login {
 </html>
 
 <?php
-      return 0;
+            return 0;
 
+        }
     }
-  }
 
 }
 $a = new login();
-$a->login_function();
+$a->loginFunction();
 ?>
