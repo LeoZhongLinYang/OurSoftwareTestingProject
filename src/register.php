@@ -1,10 +1,19 @@
 <?php  
-session_start(); 
-if(isset($_SESSION['admin_sid']) || isset($_SESSION['customer_sid']))
-{
-	header("location:index.php");
-}
-else{
+class register {
+  public function register_function() {
+
+    session_start(); 
+
+    if(isset($_SESSION['admin_sid']) || isset($_SESSION['customer_sid']))
+    {
+
+      header("location:index.php");
+      return 1;
+
+    }
+
+    else {
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -214,5 +223,12 @@ else{
 </body>
 </html>
 <?php
+      return 0;
+
+    }
+  }
+
 }
+$a = new register();
+$a->register_function();
 ?>
