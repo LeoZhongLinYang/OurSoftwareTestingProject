@@ -44,6 +44,10 @@ We have added a duplicate registration check feature to 'routers/register-router
 
 
 
+## SQL injection
+
+
+
 ## Note
 ---------
 1. The test code is located in the 'tests' folder.
