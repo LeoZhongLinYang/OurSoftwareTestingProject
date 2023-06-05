@@ -11,6 +11,7 @@ https://github.com/haxxorsid/food-ordering-system
 
 ## Coverage
 login.php ok
+
 register.php ok
 
 ## Bug
