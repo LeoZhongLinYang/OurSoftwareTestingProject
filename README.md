@@ -20,6 +20,8 @@ login.php ok
 
 register.php ok
 
+2023/6/6 13:13
+![image](https://github.com/LeoZhongLinYang/OurSoftwareTestingProject/assets/106806791/8196ffcf-3bf5-4cf4-a1f7-08102dabebcc)
 
 
 ## Bug
